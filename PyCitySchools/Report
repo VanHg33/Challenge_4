@@ -1,7 +1,18 @@
 ************Summarises the analysis********************
-
-
-
-
+After analyzing the School Data and Student Data, the following summary highlights the key findings:
+- Firstly, the analysis includes 15 high schools that have been categorized into government and independent school types.
+- Secondly, each school has determined a budget per student based on their total budget and the number of students.
+- Thirdly, the evaluation of schools focuses on the math and reading scores of their students. This assessment involves summarizing the average math score, average reading score, 
+percentage of students passing math, percentage of students passing reading, and the overall passing percentage for each school.
+- Based on the overall passing scores, the analysis identifies the top 5 performing schools as well as the bottom 5 performing schools.
+- Moreover, the analysis examines the average math score and average reading score for students in different year levels, specifically year 9, year 10, year 11, and year 12, at each school.
+- In addition, the analysis further dissects school performance by considering average spending ranges per student.
+- Furthermore, the analysis evaluates school performance based on school size.
+- Lastly, the analysis assesses school performance based on school type.
 
 ************Conclusions or Comparisons from the calculations********************
+In conclusion, the analysis reveals the following key observations:
+- Among the top 5 schools based on the Percentage of Overall Passing, Griffin High School emerges as the highest performing school.
+- Conversely, among the bottom 5 schools, Hernandez High School demonstrates the lowest Percentage of Overall Passing.
+- Generally, Independent high schools exhibit a higher Percentage of Overall Passing compared to Government high schools.
+- Regarding school size analysis, schools with fewer than 1000 students outperform other schools, achieving an Percentage of Overall Passing of 79%.
