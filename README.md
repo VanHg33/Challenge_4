@@ -64,10 +64,9 @@ __In this assignment, you’ll create and manipulate Pandas DataFrames to analys
   
   - Create a table that breaks down school performance based on average spending ranges (per student).
   - Use the code provided below to create four bins with reasonable cutoff values to group school spending.
-          spending_bins = [0, 585, 630, 645, 680]
-          labels = ["<$585", "$585-630", "$630-645", "$645-680"]
+          __spending_bins = [0, 585, 630, 645, 680]
+          __labels = ["<$585", "$585-630", "$630-645", "$645-680"]
   - Use pd.cut to categorise spending based on the bins.
-
   - Use the following code to then calculate mean scores per spending range.
           spending_math_scores = school_spending_df.groupby(["Spending Ranges (Per Student)"])["Average Math Score"].mean()
           spending_reading_scores = school_spending_df.groupby(["Spending Ranges (Per Student)"])["Average Reading Score"].mean()
@@ -85,8 +84,8 @@ __In this assignment, you’ll create and manipulate Pandas DataFrames to analys
   **Scores by School Size**
   
   - Use the following code to bin the per_school_summary.
-          size_bins = [0, 1000, 2000, 5000]
-          labels = ["Small (<1000)", "Medium (1000-2000)", "Large (2000-5000)"]
+          __size_bins = [0, 1000, 2000, 5000]
+          __labels = ["Small (<1000)", "Medium (1000-2000)", "Large (2000-5000)"]
   - Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
   - Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
 
