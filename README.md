@@ -10,7 +10,7 @@ __In this assignment, you’ll create and manipulate Pandas DataFrames to analys
   As a first task, you've been asked to analyse the area-wide standardised test results. You'll be given access to every student's maths and reading        scores, as well as various information on the schools they attend. Your task is to aggregate the data to showcase obvious trends in school performance.
 
 
-**Instructions**
+# Instructions
 
   Using Pandas and Jupyter Notebook, create a report that includes the following data. Your report must include a written description of at least two       observable trends based on the data.
 
